@@ -8,7 +8,7 @@ Instructions to host a Flask Application on VPS
 1. IPAddress of the server : 54.169.237.109 
    Port: 2200
 
-2. [Web Application] (http://54.169.237.109.xip.io)
+2. [Web Application](http://54.169.237.109.xip.io)
 
 ## Pre-requisite software packages
 ===============================================================================
@@ -102,3 +102,6 @@ http://flask.pocoo.org/docs/0.12/deploying/mod_wsgi/
 
 https://stackoverflow.com/questions/36020374/google-permission-denied-to-generate-login-hint-for-target-domain-not-on-localh/43644795
 
+#### Uploading files to VPS using Filezilla (SFTP):
+
+https://angus.readthedocs.io/en/2014/amazon/transfer-files-between-instance.html
