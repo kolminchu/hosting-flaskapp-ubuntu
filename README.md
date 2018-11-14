@@ -8,7 +8,7 @@ Instructions to host a Flask Application on VPS
 1. IPAddress of the server : 54.169.237.109 
    Port: 2200
 
-2.[Web Application] (http://54.169.237.109.xip.io)
+2. [Web Application] (http://54.169.237.109.xip.io)
 
 ## Pre-requisite software packages
 ===============================================================================
@@ -39,7 +39,7 @@ Instructions to host a Flask Application on VPS
 	* Denied all other ports for incoming traffic
 
 5. Configured SSH to run on port - 2200 (/etc/ssh/sshd_config)
-   restarted the SSH service - sudo service ssh restart
+   * restarted the SSH service - sudo service ssh restart
 6. On the "Networking" tab of Lighsail instance under FireWall section
 	* added "Custom	TCP	2200 " 
 	* removed "SSH TCP 22"
@@ -54,7 +54,7 @@ Instructions to host a Flask Application on VPS
 
 8. Created CatalogApp folder under /var/www and copied the CatalogApp from 
    local machine to VPS via FileZilla (SFTP)
-   renamed the start up file to __init__.py
+   renamed the start up file to '__init__.py'
 
 9. Created catalogapp.wsgi under /var/www/CatalogApp
 
